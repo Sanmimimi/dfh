@@ -8,7 +8,7 @@ const beian = '京ICP备15006448号-3'
 const beian1 = '京公网安备110402430053号'
 
 const config: Config = {
-  title: '美若黎明',
+  title: '言兑林夕',
   url: 'https://kuizuo.me',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -115,7 +115,7 @@ const config: Config = {
         <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
           beian1.match(/\d+/)?.[0]
         }" >${beian1}</a></p>
-        <p>Copyright © 2020 - ${new Date().getFullYear()} <a href="/" style="color:rgb(255, 255, 255); text-decoration: none;">美若黎明</a>. All Rights Reserved</p>
+        <p>Copyright © 2020 - ${new Date().getFullYear()} <a href="/" style="color:rgb(255, 255, 255); text-decoration: none;">言兑林夕</a>. All Rights Reserved</p>
         `,
     },
     algolia: {
@@ -225,7 +225,7 @@ const config: Config = {
           type: 'all',
           title: '愧怍',
           description: 'feedId:41215011978385457+userId:41840354283324416',
-          copyright: `Copyright © ${new Date().getFullYear()} 美若黎明. All Rights Reserved.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          copyright: `Copyright © ${new Date().getFullYear()} 言兑林夕. All Rights Reserved.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
